@@ -1,5 +1,73 @@
-# Vue 3 + Vite
+# Blog dos Alunos da FIAP
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este é um projeto de blog simples desenvolvido com [Vue 3](https://vuejs.org/), utilizando [Vite](https://vitejs.dev/) como bundler e [Vue Router](https://router.vuejs.org/) para navegação entre páginas.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 👨‍💻 Integrantes
+
+- Ana 
+- Ayrton 
+- Isabela 
+- Rinaldo 
+
+## 📂 Estrutura do Projeto
+
+```
+.
+├── index.html
+├── package.json
+├── vite.config.js
+├── /public
+├── /src
+│   ├── App.vue
+│   ├── main.js
+│   ├── router.js
+│   ├── style.css
+│   ├── /components
+│   │   └── PostCard.vue
+│   │   └── Loading.vue
+│   │   └── Error.vue
+│   ├── /data
+│   │   └── posts.js
+│   └── /views
+│       ├── BlogView.vue
+│       └── PostView.vue
+```
+
+## 🚀 Funcionalidades
+
+- Exibição de posts simulados (mockados) via `data/posts.js`.
+- Roteamento de páginas com `vue-router`.
+- Interface responsiva e estilizada com CSS customizado.
+- Página de lista de posts e visualização individual de cada post.
+
+## 🛠️ Tecnologias Utilizadas
+
+- [Vue 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Vue Router](https://router.vuejs.org/)
+
+## 📦 Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/aplr93/fiap-frontend.git
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+
+## 📌 Observações
+
+- A funcionalidade de **"Criar Post"** ainda não está implementada. Atualmente, ao clicar no botão, um alerta será exibido.
+- Os dados dos posts estão sendo carregados de um arquivo local `data/posts.js`.
+
+## 📄 Licença
+
+Este projeto é apenas para fins educacionais.
